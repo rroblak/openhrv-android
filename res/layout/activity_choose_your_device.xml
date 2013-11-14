@@ -9,8 +9,20 @@
     tools:context=".ChooseYourDeviceActivity" >
 
     <TextView
+        android:id="@+id/lets_connect_to_your_heart_monitor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
+        android:text="@string/lets_connect_to_your_heart_monitor"
+        android:textAppearance="@style/TextAppearance.Large"
+        android:paddingTop="24dip"
+        android:paddingBottom="36dip" />
+    
+    <TextView
+        android:id="@+id/devices_found"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lets_connect_to_your_heart_monitor"
+        android:text="@string/devices_found"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textColor="?android:attr/textColorTertiary" />
 </RelativeLayout>
