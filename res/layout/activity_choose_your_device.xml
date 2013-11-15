@@ -25,4 +25,10 @@
         android:text="@string/devices_found"
         style="?android:attr/listSeparatorTextViewStyle"
         android:textColor="?android:attr/textColorTertiary" />
+    
+    <ListView
+        android:id="@+id/device_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devices_found" />
 </RelativeLayout>
