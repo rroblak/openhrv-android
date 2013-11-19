@@ -18,17 +18,16 @@
         android:paddingBottom="36dip" />
     
     <TextView
-        android:id="@+id/devices_found"
+        android:id="@+id/device_list_status"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/lets_connect_to_your_heart_monitor"
-        android:text="@string/devices_found"
         style="?android:attr/listSeparatorTextViewStyle"
         android:textColor="?android:attr/textColorTertiary" />
     
     <ListView
         android:id="@+id/device_list"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/devices_found" />
+        android:layout_height="fill_parent"
+        android:layout_below="@id/device_list_status" /> 
 </RelativeLayout>

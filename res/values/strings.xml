@@ -4,6 +4,7 @@
     <string name="app_name">Open HRV</string>
     <string name="action_settings">Settings</string>
     <string name="lets_connect_to_your_heart_monitor">Let\'s connect to your heart monitor.</string>
-    <string name="devices_found">devices found</string>
-
+    <string name="searching_for_devices">searching&#8230;</string>
+    <string name="devices_detected">devices detected</string>
+	<string name="unknown_device">Unknown device</string>
 </resources>
